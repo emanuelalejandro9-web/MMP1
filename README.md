@@ -10,7 +10,7 @@ El caso de estudio utiliza el sistema clásico de **Lotka–Volterra** para repr
 **Departamento:** Ingeniería Eléctrica y Electrónica  
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado Matemático  
-**Programa:** Maestría en Ciencias de la Ingeniería
+**Programa:** Maestría en Ciencias de la Ingeniería 
 **Alumno:** Flores Gonzalez Emmanuel Alejandro. M26210085. m26210085@tectijuana.edu.mx
 
 ---
