@@ -11,6 +11,7 @@ El caso de estudio utiliza el sistema clásico de **Lotka–Volterra** para repr
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado Matemático  
 **Programa:** Maestría en Ciencias de la Ingeniería 
+
 **Alumno:** Flores Gonzalez Emmanuel Alejandro. M26210085. m26210085@tectijuana.edu.mx
 
 ---
@@ -178,11 +179,11 @@ $$
 
 El significado biológico del modelo requiere soluciones no negativas. Al evaluar el campo vectorial sobre las fronteras del cuadrante no negativo,
 
-$
+$$
 \left.\dot{x}\right|_{x=0}=0,
 \qquad
 \left.\dot{y}\right|_{y=0}=0.
-$
+$$
 
 Por lo tanto, el dominio
 
@@ -418,20 +419,24 @@ La función `LotkaVolterra` y el modelo utilizado dentro de `fitnlm` emplean el 
 
 Para un sistema
 
+
 $$
 \dot{\mathbf{X}}=\mathbf{F}(\mathbf{X}),
 $$
 
 el predictor de Euler es
 
+```math
 $$
 \widetilde{\mathbf{X}}_{n+1}
 =
 \mathbf{X}_n+h\mathbf{F}(\mathbf{X}_n),
 $$
+```
 
 y el corrector de Heun se define como
 
+```math
 $$
 \mathbf{X}_{n+1}
 =
@@ -443,6 +448,7 @@ $$
 \mathbf{F}(\widetilde{\mathbf{X}}_{n+1})
 \right].
 $$
+```
 
 En el cuaderno se implementa con `dt = 1e-2`:
 
